@@ -1,0 +1,8 @@
+-- AlterTable
+ALTER TABLE `blog` MODIFY `title` VARCHAR(50) NULL,
+    MODIFY `imgCDN` VARCHAR(300) NULL,
+    MODIFY `des` VARCHAR(60000) NULL;
+
+-- AlterTable
+ALTER TABLE `service` MODIFY `title` VARCHAR(50) NULL,
+    MODIFY `imgCDN` VARCHAR(300) NULL;
